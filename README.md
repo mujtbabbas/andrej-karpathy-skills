@@ -8,6 +8,20 @@ A single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej 
 
 English | [简体中文](./README.zh.md)
 
+## About This Standalone Edition
+
+- **Main repository:** [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
+- **Based on version:** upstream commit `2c606141936f1eeef17fa3043a72095b4765b9c2` (snapshotted 2026-10-20; upstream HEAD dated 2026-04-20)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for contributions
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to multica-ai and the upstream contributors. Licence is preserved unchanged — MIT, as declared in the upstream README's License section and plugin metadata; no standalone LICENSE file was present in the upstream tree. This edition adds the enhancements listed above only.
+
 ## The Problems
 
 From Andrej's post:
